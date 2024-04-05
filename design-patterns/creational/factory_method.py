@@ -135,6 +135,7 @@ class OptionBExporterFactory(ExporterFactory):
 
 
 def choose_exporter_type() -> ExporterFactory:
+    """Constructs an exporter factory based on the user input preferences."""
     factories = {
         "A": OptionAExporterFactory(),
         "B": OptionBExporterFactory(),
