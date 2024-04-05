@@ -53,7 +53,7 @@ class DeepLearningModel(ABC):
         pass
 
     # << 'Hooks' methods may be overrided but it's not mandatory, since they >>
-    # << already have default empty implementations. They provide additional
+    # << already have default empty implementations. They provide additional >>
     # << extension points in the algorithm >>
 
     def first_hook(self) -> None:
